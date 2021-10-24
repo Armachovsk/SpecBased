@@ -13,7 +13,7 @@
 
 class KPPLM {
     class main {
-        file = "kp_plm\fnc";
+        file = "SpecBased\kp_plm\fnc";
 
         // Apply and save settings
         class apply {};

@@ -1,5 +1,5 @@
 class ambient_music {
-  file = "ambient_music\fnc";
+  file = "SpecBased\ambient_music\fnc";
 
   class ambient_music_play {};
 

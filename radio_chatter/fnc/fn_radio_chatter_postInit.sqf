@@ -31,7 +31,7 @@ SPEC_radio_chatter_sounds = [
 
 // Server section (dedicated and player hosted)
 if (isServer) then {
-    execVM "radio_chatter\scripts\radioLoop.sqf";
+    execVM "SpecBased\radio_chatter\scripts\radioLoop.sqf";
 };
 
 // HC section

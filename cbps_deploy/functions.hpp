@@ -1,5 +1,5 @@
 class cbps_deploy {
-  file = "cbps_deploy\fnc";
+  file = "SpecBased\cbps_deploy\fnc";
 
   class cbps_deploy_handleVehicleSpawn {};
 
@@ -15,7 +15,7 @@ class cbps_deploy {
 };
 
 class cbps_deploy_btc_hm {
-    file = "cbps_deploy\fnc\BTC_HM";
+    file = "SpecBased\cbps_deploy\fnc\BTC_HM";
 
     class cbps_deploy_btc_hm_init {};
     class cbps_deploy_btc_hm_handleCBPSEvent {};

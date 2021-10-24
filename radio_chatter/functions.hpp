@@ -1,5 +1,5 @@
 class radio_chatter {
-    file = "radio_chatter\fnc";
+    file = "SpecBased\radio_chatter\fnc";
 
     class radio_chatter_play {};
 

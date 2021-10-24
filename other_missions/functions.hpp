@@ -12,7 +12,7 @@
 */
 
 class other_missions {
-    file = "other_missions\fnc";
+    file = "SpecBased\other_missions\fnc";
 
     class other_missions_captureCity {};
 
@@ -40,7 +40,7 @@ class other_missions {
 };
 
 class other_missions_init {
-    file = "other_missions\fnc\init";
+    file = "SpecBased\other_missions\fnc\init";
 
     // Module post initialization
     class other_missions_postInit {
@@ -49,7 +49,7 @@ class other_missions_init {
 };
 
 class other_missions_utils {
-    file = "other_missions\fnc\utils";
+    file = "SpecBased\other_missions\fnc\utils";
 
     class other_missions_spawnEnemyBot {};
 
@@ -57,7 +57,7 @@ class other_missions_utils {
 };
 
 class other_missions_rescue_intel {
-    file = "other_missions\fnc\rescue_intel";
+    file = "SpecBased\other_missions\fnc\rescue_intel";
 
     class other_missions_rescue_intel_botAttack {};
 
@@ -67,7 +67,7 @@ class other_missions_rescue_intel {
 };
 
 class other_missions_liberation {
-    file = "other_missions\fnc\liberation";
+    file = "SpecBased\other_missions\fnc\liberation";
 
     class other_missions_liberation_createMissions {};
 

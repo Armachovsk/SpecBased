@@ -1,5 +1,5 @@
 class rabbit_support {
-  file = "rabbit_support\fnc";
+  file = "SpecBased\rabbit_support\fnc";
 
   class rabbit_support_callDropTransport {};
 
@@ -21,7 +21,7 @@ class rabbit_support {
 };
 
 class rabbit_support_vof {
-    file = "rabbit_support\fnc\vehicle_on_fire";
+    file = "SpecBased\rabbit_support\fnc\vehicle_on_fire";
 
     class rabbit_support_vof_condition {};
 
