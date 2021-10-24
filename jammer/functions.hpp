@@ -1,5 +1,5 @@
 class jammer {
-    file = "specbased\jammer\fnc";
+    file = "jammer\fnc";
 
     class jammer_tfarJamRadios {};
 

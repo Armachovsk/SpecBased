@@ -1,5 +1,5 @@
 class halo_restrict {
-  file = "specbased\halo_restrict\fnc";
+  file = "halo_restrict\fnc";
 
   class halo_restrict_isAllowed {};
 

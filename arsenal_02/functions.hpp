@@ -1,5 +1,5 @@
 class arsenal_02 {
-  file = "specbased\arsenal_02\fnc";
+  file = "arsenal_02\fnc";
 
   class arsenal_02_preInit {
     preInit = 1;

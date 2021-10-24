@@ -12,5 +12,5 @@ if (!isDedicated && hasInterface) then {
 };
 
 if (isServer) then {
-    execVM "specbased\rabbit_support\scripts\vehicleOnFire.sqf";
+    execVM "rabbit_support\scripts\vehicleOnFire.sqf";
 };
