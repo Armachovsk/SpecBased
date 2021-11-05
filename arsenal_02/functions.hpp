@@ -1,3 +1,11 @@
+class hnm_arsenal_02 {
+    file = "SpecBased\arsenal_02\fnc\hearts_and_minds";
+
+    class hnm_arsenal_02_init {
+        postInit = 1;
+    }
+};
+
 class arsenal_02 {
   file = "SpecBased\arsenal_02\fnc";
 
