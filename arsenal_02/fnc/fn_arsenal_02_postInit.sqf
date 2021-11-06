@@ -1,9 +1,12 @@
-if (isNil "SPEC_arsenal_02_disableStandardInit") then {
-    SPEC_arsenal_02_disableStandardInit = false;
-};
+[
+    {!isNull player && {isNil "SPEC_arsenal_02_disableStandardInit"}},
+    {
+        SPEC_arsenal_02_disableStandardInit = false;
+    }
+] call CBA_fnc_waitUntilAndExecute;
 
 [
-    {!SPEC_arsenal_02_disableStandardInit},
+    {!isNull player && {!SPEC_arsenal_02_disableStandardInit}},
     {
         ["SPEC_arsenal_02_presetsCompiled", {
             [player, _this] call SPEC_fnc_arsenal_02_onPresetsCompiled;
